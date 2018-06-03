@@ -1,7 +1,7 @@
 {
-  "name": "@zaihui/cnpm-gitlab-user-service",
-  "version": "0.0.8",
-  "description": "gitlab user service for cnpmjs.org",
+  "name": "@zaihui/s3-cnpm",
+  "version": "0.0.1",
+  "description": "cnpm s3 storage service",
   "homepage": "",
   "author": {
     "name": "jkzing",
