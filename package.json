@@ -1,0 +1,58 @@
+{
+  "name": "@zaihui/cnpm-gitlab-user-service",
+  "version": "0.0.8",
+  "description": "gitlab user service for cnpmjs.org",
+  "homepage": "",
+  "author": {
+    "name": "jkzing",
+    "email": "jingkai.zhao@foxmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "@zaihui/eslint-config-base": "^1.0.1",
+    "co": "^4.6.0",
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "jest": "^22.0.6",
+    "lint-staged": "^6.1.1",
+    "nsp": "^2.8.0"
+  },
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [],
+    "env": {
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "no-var": "off"
+    }
+  },
+  "repository": "jkzing/cnpm-gitlab-user-service",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.249.1",
+    "thunkify-wrap": "^1.0.4"
+  }
+}
